@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Generated indexes / embeddings
+indexes/
+*.index
+*.pkl
+*.faiss
+*.npy
+*.npz
+
+# Generated document data
+data/documents/
+
+# Node / frontend
+node_modules/
+ui/node_modules/
+ui/dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db

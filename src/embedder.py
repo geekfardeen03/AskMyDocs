@@ -173,4 +173,3 @@ class Embedder:
             if self.chunks
             else 0
         )
-EOF
